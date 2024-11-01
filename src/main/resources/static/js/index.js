@@ -1,5 +1,5 @@
 
-const socket = new WebSocket('ws://localhost:8080/conect');
+const socket = new WebSocket('https://websocket-production-c298.up.railway.app/conect');
 const Client = Stomp.over(socket);
 
 
